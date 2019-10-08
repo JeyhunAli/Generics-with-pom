@@ -3,7 +3,7 @@ package com.qa.hubspot.pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
+//
 public class BasePage extends Page {
 
 	public BasePage(WebDriver driver, WebDriverWait wait) {
