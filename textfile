@@ -1,0 +1,51 @@
+here im gonna explain how to use generics in selenium framework in page object model
+
+1 creating super page class here im defining getinstance(); method  it will return page class object 
+
+2 im gonna create base page class and this class will extends super page class basically base page class becomes 
+child of the super page class   ---- here im gonna create constructor of the base page class and then some general methods  
+dot,click method .send keys method
+
+3 then im gonna create pages of the website  for example home page registrartion page login page 
+then these pages they will extends base page class . in these pages will define locators by By keyword and some page actions 
+
+these page layers 
+**************************************************************************************************************************
+then another layer  will be test layer 
+here we connecting with testNG  here will be login test class, home page test class 
+in this test base page class first im gonna create before method after method testng annotations  
+beforemethod im gonna initialize my browser some actions 
+
+then i will start to write login test case which it will extends test base page 
+and this class will be connecting super page class  and login page and hoome page 
+
+then i will define in my login and home page test class  @test annottions 
+
+then i wll create testng.xml file i will add all the test cases to the then i will run 
+************************************************************************************************
+im not gonna talk about any configuration or any property file how to read the property file fetch the data from excell it just to 
+show how to implement generics with hybrid framewrokd with page onject model 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
